@@ -72,7 +72,7 @@ history = model.fit(
 
 plt.plot(history.history["loss"], label="Training Loss")
 plt.plot(history.history["val_loss"], label="Validation Loss")
-plt.legend()
+#plt.legend()
 plt.show()
 
 x_train_pred = model.predict(x_train)
